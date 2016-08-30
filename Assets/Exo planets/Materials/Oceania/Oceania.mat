@@ -1,0 +1,388 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Oceania
+  m_Shader: {fileID: 4800000, guid: 3a228e844d55cba4bbee2c88072dc043, type: 3}
+  m_ShaderKeywords: _ATMOSPHERE_ON _CLOUDS_ON _METALLICGLOSSMAP _NODE_9266_ON _SUBATMOSPHERE_ON
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 72ba01dab3185214982b48accb2d9664, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailNormalMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _OcclusionMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 652468c2aab60d9479007251eb89cdb0, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _EmissionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailMask
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailAlbedoMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MetallicGlossMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 6a178afe4ebbc8543ae35a463a8966f4, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Clouds
+        second:
+          m_Texture: {fileID: 2800000, guid: e1b95afc12b486448abe975632e539cf, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Albedo
+        second:
+          m_Texture: {fileID: 2800000, guid: 72ba01dab3185214982b48accb2d9664, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Specular
+        second:
+          m_Texture: {fileID: 2800000, guid: 6a178afe4ebbc8543ae35a463a8966f4, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normalmap
+        second:
+          m_Texture: {fileID: 2800000, guid: 0b5ac22ada0e4fd43ab69e9331139f3c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cloudstexture
+        second:
+          m_Texture: {fileID: 2800000, guid: d4832efcc03455542bf9c10d69accd94, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Emissive
+        second:
+          m_Texture: {fileID: 2800000, guid: e761d1b5f99e4c840b58081a41de20d6, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LookuprampSunset
+        second:
+          m_Texture: {fileID: 2800000, guid: 3c94491068797e54b9d16576eeb33a8c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MetalRough
+        second:
+          m_Texture: {fileID: 2800000, guid: 6a178afe4ebbc8543ae35a463a8966f4, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Lookupramp
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MetalRGBRoughA
+        second:
+          m_Texture: {fileID: 2800000, guid: 6a178afe4ebbc8543ae35a463a8966f4, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_9632
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_4658
+        second:
+          m_Texture: {fileID: 2800000, guid: 72ba01dab3185214982b48accb2d9664, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_7111
+        second:
+          m_Texture: {fileID: 2800000, guid: 6a178afe4ebbc8543ae35a463a8966f4, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_7875
+        second:
+          m_Texture: {fileID: 2800000, guid: 0b5ac22ada0e4fd43ab69e9331139f3c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _SrcBlend
+        second: 1
+      data:
+        first:
+          name: _DstBlend
+        second: 0
+      data:
+        first:
+          name: _Cutoff
+        second: 0.5
+      data:
+        first:
+          name: _Parallax
+        second: 0.02
+      data:
+        first:
+          name: _ZWrite
+        second: 1
+      data:
+        first:
+          name: _Glossiness
+        second: 0.5
+      data:
+        first:
+          name: _BumpScale
+        second: 1
+      data:
+        first:
+          name: _OcclusionStrength
+        second: 1
+      data:
+        first:
+          name: _DetailNormalMapScale
+        second: 1
+      data:
+        first:
+          name: _UVSec
+        second: 0
+      data:
+        first:
+          name: _Mode
+        second: 0
+      data:
+        first:
+          name: _Metallic
+        second: 0
+      data:
+        first:
+          name: _Clouds
+        second: 1
+      data:
+        first:
+          name: _SubAtmosphere
+        second: 1
+      data:
+        first:
+          name: _Subatmosphereintensity
+        second: 1
+      data:
+        first:
+          name: _SubAtmospherepower
+        second: 4.5
+      data:
+        first:
+          name: _Specularpower
+        second: 0.436
+      data:
+        first:
+          name: _Nightemissivecities
+        second: 0
+      data:
+        first:
+          name: _Ambiantatmosphereintensity
+        second: 1
+      data:
+        first:
+          name: _node_4402
+        second: 0
+      data:
+        first:
+          name: _node_4321
+        second: 0
+      data:
+        first:
+          name: _node_9558
+        second: 0.498
+      data:
+        first:
+          name: _Atmosphere
+        second: 1
+      data:
+        first:
+          name: _Nightemissive
+        second: 0
+      data:
+        first:
+          name: _node_6758
+        second: 0
+      data:
+        first:
+          name: _node_9953
+        second: 5
+      data:
+        first:
+          name: _node_8533
+        second: 0
+      data:
+        first:
+          name: _Atmospherepower
+        second: 4.91
+      data:
+        first:
+          name: _node_820
+        second: 1
+      data:
+        first:
+          name: _node_6580
+        second: 0
+      data:
+        first:
+          name: _CloudsOFFON
+        second: 0
+      data:
+        first:
+          name: _node_7482
+        second: 0
+      data:
+        first:
+          name: _Clouds_copy
+        second: 0
+      data:
+        first:
+          name: _node_9266
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _EmissionColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _Color
+        second: {r: 0, g: 1, b: 0.8758619, a: 1}
+      data:
+        first:
+          name: _Subatmospherecolor
+        second: {r: 0.7058823, g: 0.8174442, b: 1, a: 1}
+      data:
+        first:
+          name: _Albedocolor
+        second: {r: 0, g: 0.751724, b: 1, a: 1}
+      data:
+        first:
+          name: _Specularcolor
+        second: {r: 0.59576404, g: 0.6547908, b: 0.684, a: 1}
+      data:
+        first:
+          name: _Cloudscolor
+        second: {r: 0.391, g: 0.391, b: 0.391, a: 1}
+      data:
+        first:
+          name: _Citycolor
+        second: {r: 1, g: 0.7241379, b: 0, a: 1}
+      data:
+        first:
+          name: _Ambiantatmospherecolor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _node_7883
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      data:
+        first:
+          name: _node_2409
+        second: {r: 0.21563235, g: 0.28393608, b: 0.341, a: 1}
+      data:
+        first:
+          name: _Atmospherecolor
+        second: {r: 0.100000024, g: 0.5, b: 1, a: 1}
+      data:
+        first:
+          name: _Atmosphere
+        second: {r: 0.07843138, g: 0.3921569, b: 0.7843137, a: 1}
+      data:
+        first:
+          name: _node_3849
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      data:
+        first:
+          name: _node_4773
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      data:
+        first:
+          name: _node_8608
+        second: {r: 1, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _node_7196
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      data:
+        first:
+          name: _node_8381
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      data:
+        first:
+          name: _node_6934
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
