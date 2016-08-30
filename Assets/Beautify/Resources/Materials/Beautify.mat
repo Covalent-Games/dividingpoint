@@ -1,0 +1,434 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Beautify
+  m_Shader: {fileID: 4800000, guid: 1cb716be5dc9d4230ada327d9468ff41, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailNormalMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _OcclusionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _EmissionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailMask
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailAlbedoMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MetallicGlossMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: 09bd43600fd5c4ca5927a2edf13b63df, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _OverlayTex
+        second:
+          m_Texture: {fileID: 2800000, guid: dec70c1ae0ce346849f747716f782eb8, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NoiseTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 9733f0d7aec8848f08cae3c95b44d3ae, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Noise2Tex
+        second:
+          m_Texture: {fileID: 2800000, guid: 4e4a0e2a9212f4a1b8ce9108443f3b03, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _FogOfWar
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Downsampled
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Clouds
+        second:
+          m_Texture: {fileID: 8900000, guid: 57d7795e4a1514dbdaa88ddd9c3afa1f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Stars
+        second:
+          m_Texture: {fileID: 8900000, guid: 09bd43600fd5c4ca5927a2edf13b63df, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _SrcBlend
+        second: 1
+      data:
+        first:
+          name: _DstBlend
+        second: 0
+      data:
+        first:
+          name: _Cutoff
+        second: 0.5
+      data:
+        first:
+          name: _Exposure
+        second: 1.37
+      data:
+        first:
+          name: _Parallax
+        second: 0.02
+      data:
+        first:
+          name: _ZWrite
+        second: 1
+      data:
+        first:
+          name: _Glossiness
+        second: 0.5
+      data:
+        first:
+          name: _BumpScale
+        second: 1
+      data:
+        first:
+          name: _OcclusionStrength
+        second: 1
+      data:
+        first:
+          name: _DetailNormalMapScale
+        second: 1
+      data:
+        first:
+          name: _UVSec
+        second: 0
+      data:
+        first:
+          name: _Mode
+        second: 0
+      data:
+        first:
+          name: _Metallic
+        second: 0
+      data:
+        first:
+          name: _Contrast
+        second: 1.38
+      data:
+        first:
+          name: _Sharpen
+        second: 2.5
+      data:
+        first:
+          name: _Dirt
+        second: 0.7
+      data:
+        first:
+          name: _Intensity
+        second: 1
+      data:
+        first:
+          name: _Brightness
+        second: 1.1
+      data:
+        first:
+          name: _DepthThreshold
+        second: 0.0005
+      data:
+        first:
+          name: _FogIntensity
+        second: 1
+      data:
+        first:
+          name: _FogDistance
+        second: 0
+      data:
+        first:
+          name: _FogDistanceFallOff
+        second: 0.001
+      data:
+        first:
+          name: _FogHeight
+        second: 1
+      data:
+        first:
+          name: _FogHeightFallOff
+        second: 0.36
+      data:
+        first:
+          name: _FogNoise
+        second: 0.34
+      data:
+        first:
+          name: _FogSpeed
+        second: 0
+      data:
+        first:
+          name: _FogSkyHaze
+        second: 50
+      data:
+        first:
+          name: _FogSkySpeed
+        second: 0.3
+      data:
+        first:
+          name: _FogSkyNoise
+        second: 0
+      data:
+        first:
+          name: _FogSkyAlpha
+        second: 0.8
+      data:
+        first:
+          name: _FogFallOff
+        second: 0.908
+      data:
+        first:
+          name: _FogTurbulence
+        second: 0
+      data:
+        first:
+          name: _FogAlpha
+        second: 1
+      data:
+        first:
+          name: _FogStepping
+        second: 0.0833333
+      data:
+        first:
+          name: _FogDensity
+        second: 1
+      data:
+        first:
+          name: _FogBaseHeight
+        second: 0
+      data:
+        first:
+          name: _FogScale
+        second: 1
+      data:
+        first:
+          name: _FogSteppingNear
+        second: 1
+      data:
+        first:
+          name: _FogPointLightRadius0
+        second: 5
+      data:
+        first:
+          name: _FogPointLightRadius1
+        second: 5
+      data:
+        first:
+          name: _FogPointLightRadius2
+        second: 5
+      data:
+        first:
+          name: _FogPointLightRadius3
+        second: 5
+      data:
+        first:
+          name: _FogPointLightRadius4
+        second: 5
+      data:
+        first:
+          name: _FogPointLightRadius5
+        second: 5
+      data:
+        first:
+          name: _Saturate
+        second: 0.08
+    m_Colors:
+      data:
+        first:
+          name: _EmissionColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Sharpen
+        second: {r: 2.5, g: 0.035, b: 0.5, a: 1}
+      data:
+        first:
+          name: _ColorBoost
+        second: {r: 1.1, g: 1.1, b: 0.08, a: 1}
+      data:
+        first:
+          name: _Dither
+        second: {r: 5, g: 0, b: 0.022, a: 1}
+      data:
+        first:
+          name: _FXColor
+        second: {r: 1, g: 1, b: 1, a: 0}
+      data:
+        first:
+          name: _Vignetting
+        second: {r: 0.3, g: 0.3, b: 0.3, a: 0.05}
+      data:
+        first:
+          name: _Frame
+        second: {r: 1, g: 1, b: 1, a: 0}
+      data:
+        first:
+          name: _Outline
+        second: {r: 0, g: 0, b: 0, a: 0.8}
+      data:
+        first:
+          name: _FogDistance
+        second: {r: 0, g: 1, b: 1000, a: 1}
+      data:
+        first:
+          name: _FogColor
+        second: {r: 0.8161765, g: 0.7321583, b: 0.7321583, a: 1}
+      data:
+        first:
+          name: _FogWindDir
+        second: {r: 1, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _FogVoidPosition
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _FogVoidData
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _FogOfWarCenter
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _FogOfWarSize
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _FogPointLightPosition0
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _FogPointLightColor0
+        second: {r: 1, g: 1, b: 0, a: 1}
+      data:
+        first:
+          name: _FogPointLightPosition1
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _FogPointLightColor1
+        second: {r: 1, g: 1, b: 0, a: 1}
+      data:
+        first:
+          name: _FogPointLightPosition2
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _FogPointLightColor2
+        second: {r: 1, g: 1, b: 0, a: 1}
+      data:
+        first:
+          name: _FogPointLightPosition3
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _FogPointLightColor3
+        second: {r: 1, g: 1, b: 0, a: 1}
+      data:
+        first:
+          name: _FogPointLightPosition4
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _FogPointLightColor4
+        second: {r: 1, g: 1, b: 0, a: 1}
+      data:
+        first:
+          name: _FogPointLightPosition5
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _FogPointLightColor5
+        second: {r: 1, g: 1, b: 0, a: 1}
+      data:
+        first:
+          name: _FogSkyColor
+        second: {r: 0.9, g: 0.9, b: 0.9, a: 1}
