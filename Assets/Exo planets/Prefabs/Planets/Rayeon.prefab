@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 409978}
   - 135: {fileID: 13599400}
   - 135: {fileID: 13570560}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Rayeon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +27,7 @@ GameObject:
   - 4: {fileID: 458424}
   - 33: {fileID: 3367758}
   - 23: {fileID: 2344288}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: 'Atmosphere '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ GameObject:
   - 33: {fileID: 3350718}
   - 23: {fileID: 2309684}
   - 95: {fileID: 9540632}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Planet
   m_TagString: Untagged
   m_Icon: {fileID: 0}

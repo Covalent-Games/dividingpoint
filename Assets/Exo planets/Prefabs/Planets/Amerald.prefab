@@ -11,7 +11,7 @@ GameObject:
   - 33: {fileID: 3371676}
   - 23: {fileID: 2357380}
   - 95: {fileID: 9587126}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Planet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,7 +28,7 @@ GameObject:
   - 4: {fileID: 488806}
   - 33: {fileID: 3302486}
   - 23: {fileID: 2379184}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Atmosphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ GameObject:
   - 4: {fileID: 464792}
   - 135: {fileID: 13546112}
   - 135: {fileID: 13578324}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Amerald
   m_TagString: Untagged
   m_Icon: {fileID: 0}

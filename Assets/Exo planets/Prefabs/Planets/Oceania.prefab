@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 405374}
   - 33: {fileID: 3372428}
   - 23: {fileID: 2315798}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Atmosphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,7 +28,7 @@ GameObject:
   - 33: {fileID: 3340668}
   - 23: {fileID: 2349548}
   - 95: {fileID: 9564950}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Planet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ GameObject:
   - 4: {fileID: 442848}
   - 135: {fileID: 13507890}
   - 135: {fileID: 13528492}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Oceania
   m_TagString: Untagged
   m_Icon: {fileID: 0}

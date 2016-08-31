@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 440870}
   - 135: {fileID: 13593048}
   - 135: {fileID: 13583654}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Tadmor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,7 +28,7 @@ GameObject:
   - 33: {fileID: 3386998}
   - 23: {fileID: 2339872}
   - 95: {fileID: 9567208}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Planet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ GameObject:
   - 4: {fileID: 492822}
   - 33: {fileID: 3310472}
   - 23: {fileID: 2396278}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Atmosphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}

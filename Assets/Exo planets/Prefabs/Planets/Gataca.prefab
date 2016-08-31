@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 469034}
   - 135: {fileID: 13539164}
   - 135: {fileID: 13591802}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gataca
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,7 +28,7 @@ GameObject:
   - 33: {fileID: 3376890}
   - 23: {fileID: 2368718}
   - 95: {fileID: 9554054}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Planet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ GameObject:
   - 4: {fileID: 447680}
   - 33: {fileID: 3344696}
   - 23: {fileID: 2315892}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Atmosphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}

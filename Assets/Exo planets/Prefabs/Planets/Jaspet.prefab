@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 444056}
   - 33: {fileID: 3383132}
   - 23: {fileID: 2364396}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Atmosphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +27,7 @@ GameObject:
   - 4: {fileID: 434102}
   - 135: {fileID: 13525418}
   - 135: {fileID: 13570856}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Jaspet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ GameObject:
   - 33: {fileID: 3396332}
   - 23: {fileID: 2384420}
   - 95: {fileID: 9509694}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Planet
   m_TagString: Untagged
   m_Icon: {fileID: 0}

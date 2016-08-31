@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 468506}
   - 135: {fileID: 13504734}
   - 135: {fileID: 13506356}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Safar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +27,7 @@ GameObject:
   - 4: {fileID: 489766}
   - 33: {fileID: 3362506}
   - 23: {fileID: 2325840}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Rings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   - 4: {fileID: 403846}
   - 33: {fileID: 3396810}
   - 23: {fileID: 2313342}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Atmosphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62,7 +62,7 @@ GameObject:
   - 33: {fileID: 3366802}
   - 23: {fileID: 2354172}
   - 95: {fileID: 9514150}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Planet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79,7 +79,7 @@ GameObject:
   - 4: {fileID: 443236}
   - 33: {fileID: 3358058}
   - 23: {fileID: 2317244}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Atmosphere (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

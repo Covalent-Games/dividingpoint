@@ -3,17 +3,64 @@
 using System.Collections;
 using Random = UnityEngine.Random;
 using System.Collections.Generic;
+using System;
 
 public class TestingSceneManager : MonoBehaviour {
 
 	public GameObject[] AsteroidPrefabs;
+	public GameObject[] PlanetPrefabs;
+	public GameObject[] StarPrefabs;
+
+	[SerializeField]
+	private Transform _star;
 
 	private void Start() {
+
+		GenerateAsteroidCluster();
+		PlaceStar();
+		PlacePlanets();
+
+	}
+
+	private void PlacePlanets() {
+
+		int numOfPlanets = Random.Range(0, 6);
+		int numOfMoons;
+		for (int i = 0; i < numOfPlanets; i++) {
+			GameObject orbit = new GameObject();
+			orbit.transform.SetParent(_star);
+			orbit.transform.localPosition = Vector3.zero;
+
+			GameObject planetGO = (GameObject)Instantiate(
+				PlanetPrefabs[Random.Range(1, PlanetPrefabs.Length)],
+				Vector3.zero,
+				Quaternion.identity);
+
+			planetGO.transform.SetParent(orbit.transform);
+			
+
+
+			float scaleMod = Random.Range(0.75f, 2f);
+
+		}
+	}
+
+	private void PlaceStar() {
+
+		GameObject starGO = (GameObject)Instantiate(StarPrefabs[Random.Range(0, StarPrefabs.Length)]);
+		starGO.transform.position = new Vector3(
+			Random.Range(300, 4000),
+			Random.Range(300, 4000),
+			Random.Range(300, 4000));
+		_star = starGO.transform;
+	}
+
+	private void GenerateAsteroidCluster() {
 
 		int clusterNumber = 0;
 		float spacing = Random.Range(0.5f, 1f);
 		// Determind asteroid count of new cluster;
-		int clusterSize = Random.Range(15, 50);
+		int clusterSize = Random.Range(25, 100);
 		GameObject clusterCore = new GameObject();
 		clusterCore.name = "Asteroid Cluster 0";
 
@@ -34,8 +81,8 @@ public class TestingSceneManager : MonoBehaviour {
 			Collider collider = asteroid.GetComponent<Collider>();
 			colliders.Add(collider);
 			float minDistance = -Mathf.Max(
-				collider.bounds.size.x, 
-				collider.bounds.size.y, 
+				collider.bounds.size.x,
+				collider.bounds.size.y,
 				collider.bounds.size.z);
 			float maxDistance = Mathf.Max(
 				collider.bounds.size.x,
@@ -67,7 +114,7 @@ public class TestingSceneManager : MonoBehaviour {
 				}
 			}
 			asteroid.name = "asteroid_" + clusterNumber + "_" + i;
-			
+
 		}
 	}
 }

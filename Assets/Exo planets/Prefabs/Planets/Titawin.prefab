@@ -11,7 +11,7 @@ GameObject:
   - 33: {fileID: 3372150}
   - 23: {fileID: 2371604}
   - 95: {fileID: 9588442}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Planet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,7 +28,7 @@ GameObject:
   - 4: {fileID: 492414}
   - 135: {fileID: 13507702}
   - 135: {fileID: 13547288}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Titawin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ GameObject:
   - 4: {fileID: 417378}
   - 33: {fileID: 3322474}
   - 23: {fileID: 2309560}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: 'Atmosphere '
   m_TagString: Untagged
   m_Icon: {fileID: 0}

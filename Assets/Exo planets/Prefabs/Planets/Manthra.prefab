@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 479446}
   - 33: {fileID: 3314946}
   - 23: {fileID: 2397560}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Atmosphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +27,7 @@ GameObject:
   - 4: {fileID: 406182}
   - 33: {fileID: 3379158}
   - 23: {fileID: 2333132}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Instance_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   - 4: {fileID: 451706}
   - 135: {fileID: 13598188}
   - 135: {fileID: 13593874}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Manthra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62,7 +62,7 @@ GameObject:
   - 33: {fileID: 3373578}
   - 23: {fileID: 2338740}
   - 95: {fileID: 9546130}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Planet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77,7 +77,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 455926}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Rings
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 444144}
   - 135: {fileID: 13592562}
   - 135: {fileID: 13538942}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Moon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,7 +28,7 @@ GameObject:
   - 33: {fileID: 3347310}
   - 23: {fileID: 2379308}
   - 95: {fileID: 9534372}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Planet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ Transform:
   m_GameObject: {fileID: 132962}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 124, y: 0, z: 5974}
-  m_LocalScale: {x: 26.394869, y: 26.394863, z: 26.394863}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 464868}
